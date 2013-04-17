@@ -1,0 +1,76 @@
+body {
+	background-color: #CBCAB6;
+}
+
+#content-container {
+	margin: 20px;
+}
+
+/*Begin Stoplight*/
+
+#stoplight ul {
+	margin: 0;
+	list-style-type: none;
+	border: 2px inset #FFF;
+	padding: 10px;
+	float: left;
+}
+
+#stoplight li {
+	padding-top: 5px;
+
+}
+
+.off {
+	background: #CBCAB6 url('../img/circle_grey.png') no-repeat top left;
+	width: 64px;
+	height: 64px;
+}
+
+.on {
+		width: 64px;
+		height: 64px;
+}
+
+#red.on {
+	background: #CBCAB6 url('../img/circle_red.png') no-repeat top left;
+}
+
+#yellow.on {
+	background: #CBCAB6 url('../img/circle_yellow.png') no-repeat top left;
+}
+
+#green.on {
+	background: #CBCAB6 url('../img/circle_green.png') no-repeat top left;
+}
+
+/*End Stoplight*/
+
+/*Begin Output Console*/
+
+#output {
+	margin-left: 15;
+	background-color: #424242;
+	border: 2px inset #FFF;
+	width: 400px;
+	height: 227px;
+	float: left;
+	overflow: auto;
+	white-space: nowrap;
+	display: inline-block;
+}
+
+#output ul {
+	list-style-type: none;
+	display: inline-block;
+	margin: 3;
+	padding: 0;
+}
+
+#output li {
+	font-family: Calibri,Arial;
+	color:#FFF;
+}
+
+
+/*End Output Console*/

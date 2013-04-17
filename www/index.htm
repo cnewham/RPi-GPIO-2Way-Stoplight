@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title>RPi 2-Way Stoplight</title>
+
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<script type="text/javascript" src="js/lib/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="js/lib/socket.io.js"></script>
+	<script type="text/javascript" src="js/app/config.js"></script>
+	<script type="text/javascript" src="js/app/stoplight.js"></script>
+	<script type="text/javascript" src="js/app/stoplight-socket.js"></script>
+
+
+</head>
+
+<body>
+	<div id="content-container">
+
+		<div id="stoplight">
+			<ul>
+				<li><div id="red" class="off" /></li>
+				<li><div id="yellow" class="off"/></li>
+				<li><div id="green" class="off"/></li>
+			</ul>
+		</div>
+
+		<div id="output">
+			<ul id="write">
+			</ul>
+		</div>
+
+	</div>
+</body>
+</html>
